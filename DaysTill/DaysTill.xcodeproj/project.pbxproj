@@ -233,6 +233,7 @@
 				TargetAttributes = {
 					CC74EAA81E3975E500C6B3E8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 86J3LT48Q3;
 						ProvisioningStyle = Automatic;
 					};
 					CC74EABC1E3975E500C6B3E8 = {
@@ -548,6 +549,7 @@
 			baseConfigurationReference = 22F468F6FD47E1DDDACFF3AE /* Pods-DaysTill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86J3LT48Q3;
 				INFOPLIST_FILE = DaysTill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajthala.DaysTill;
@@ -561,6 +563,7 @@
 			baseConfigurationReference = 3279A83B321389540B2A15DC /* Pods-DaysTill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86J3LT48Q3;
 				INFOPLIST_FILE = DaysTill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajthala.DaysTill;
