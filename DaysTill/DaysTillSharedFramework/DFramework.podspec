@@ -10,7 +10,7 @@ s.source   = { :git => 'https://isBSO/DFramework/DFramework.git', :tag => s.vers
 s.requires_arc = true
 
 s.public_header_files = 'DFramework/DFramework.h'
-s.source_files = 'DFramework/DFramework.h'
+s.source_files = 'DFramework/*.*'
 
 pch_AF = <<-EOS
 #ifndef TARGET_OS_IOS

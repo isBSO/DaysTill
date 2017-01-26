@@ -1,0 +1,6 @@
+framework module DFramework {
+  umbrella header "DFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
