@@ -11,4 +11,5 @@
 @interface DUser : NSObject
 
     -(void)start:(NSString*)groupName;
+
 @end
