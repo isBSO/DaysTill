@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import DFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let Dsd :DUser = DUser()
+        Dsd.start(" HEllo")
+        
     }
 
     override func didReceiveMemoryWarning() {

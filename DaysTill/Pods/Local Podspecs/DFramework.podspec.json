@@ -14,12 +14,14 @@
     "submodules": true
   },
   "requires_arc": true,
-  "public_header_files": "DFramework/DFramework.h",
   "source_files": "DFramework/*.*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
   "platforms": {
-    "ios": "7.0",
-    "osx": "10.9",
-    "watchos": "2.0",
-    "tvos": "9.0"
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   }
 }
