@@ -56,7 +56,7 @@
 		CC74EAC81E3975E500C6B3E8 /* DaysTillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaysTillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC74EACC1E3975E500C6B3E8 /* DaysTillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysTillUITests.swift; sourceTree = "<group>"; };
 		CC74EACE1E3975E500C6B3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC74EADA1E3977DB00C6B3E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		CC74EADA1E3977DB00C6B3E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
