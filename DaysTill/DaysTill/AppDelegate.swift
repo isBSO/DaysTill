@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DaysTill
 //
-//  Created by Rachel Rajthala on 1/25/17.
+//  Created by isBSO on 1/25/17.
 //
 //
 
