@@ -1,0 +1,6 @@
+framework module Pods_DaysTill_DaysTillTests {
+  umbrella header "Pods-DaysTill-DaysTillTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
