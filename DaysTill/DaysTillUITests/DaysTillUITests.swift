@@ -2,7 +2,7 @@
 //  DaysTillUITests.swift
 //  DaysTillUITests
 //
-//  Created by Rachel Rajthala on 1/25/17.
+//  Created by isBSO on 1/25/17.
 //
 //
 
@@ -28,9 +28,16 @@ class DaysTillUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    func testExample() {
+//        // Use recording to get started writing UI tests.
+//        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//    }
+    func testGoingToBAndBAck() {
+        
+        let app = XCUIApplication()
+        app.buttons["Goto B"].tap()
+        app.navigationBars["UIView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        
     }
     
 }

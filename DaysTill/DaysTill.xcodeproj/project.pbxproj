@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1A2FEFEF15F2A58438E65A0 /* Pods_DaysTill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15BC044B55208F8B5E1DE8F /* Pods_DaysTill.framework */; };
 		CC74EAAD1E3975E500C6B3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74EAAC1E3975E500C6B3E8 /* AppDelegate.swift */; };
 		CC74EAAF1E3975E500C6B3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74EAAE1E3975E500C6B3E8 /* ViewController.swift */; };
 		CC74EAB21E3975E500C6B3E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC74EAB01E3975E500C6B3E8 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CC74EAB71E3975E500C6B3E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC74EAB51E3975E500C6B3E8 /* LaunchScreen.storyboard */; };
 		CC74EAC21E3975E500C6B3E8 /* DaysTillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74EAC11E3975E500C6B3E8 /* DaysTillTests.swift */; };
 		CC74EACD1E3975E500C6B3E8 /* DaysTillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC74EACC1E3975E500C6B3E8 /* DaysTillUITests.swift */; };
+		CC74EADB1E3977DB00C6B3E8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CC74EADA1E3977DB00C6B3E8 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22F468F6FD47E1DDDACFF3AE /* Pods-DaysTill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaysTill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaysTill/Pods-DaysTill.debug.xcconfig"; sourceTree = "<group>"; };
+		3279A83B321389540B2A15DC /* Pods-DaysTill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaysTill.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaysTill/Pods-DaysTill.release.xcconfig"; sourceTree = "<group>"; };
+		C15BC044B55208F8B5E1DE8F /* Pods_DaysTill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaysTill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC74EAA91E3975E500C6B3E8 /* DaysTill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysTill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC74EAAC1E3975E500C6B3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC74EAAE1E3975E500C6B3E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		CC74EAC81E3975E500C6B3E8 /* DaysTillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaysTillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC74EACC1E3975E500C6B3E8 /* DaysTillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysTillUITests.swift; sourceTree = "<group>"; };
 		CC74EACE1E3975E500C6B3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC74EADA1E3977DB00C6B3E8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A2FEFEF15F2A58438E65A0 /* Pods_DaysTill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2332C6E1908B6CBC0DDF7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15BC044B55208F8B5E1DE8F /* Pods_DaysTill.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A512DCCC949F934318D90422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22F468F6FD47E1DDDACFF3AE /* Pods-DaysTill.debug.xcconfig */,
+				3279A83B321389540B2A15DC /* Pods-DaysTill.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC74EAA01E3975E500C6B3E8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				CC74EAC01E3975E500C6B3E8 /* DaysTillTests */,
 				CC74EACB1E3975E500C6B3E8 /* DaysTillUITests */,
 				CC74EAAA1E3975E500C6B3E8 /* Products */,
+				A512DCCC949F934318D90422 /* Pods */,
+				3F2332C6E1908B6CBC0DDF7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,7 @@
 				CC74EAB31E3975E500C6B3E8 /* Assets.xcassets */,
 				CC74EAB51E3975E500C6B3E8 /* LaunchScreen.storyboard */,
 				CC74EAB81E3975E500C6B3E8 /* Info.plist */,
+				CC74EADA1E3977DB00C6B3E8 /* Podfile */,
 			);
 			path = DaysTill;
 			sourceTree = "<group>";
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC74EAD11E3975E500C6B3E8 /* Build configuration list for PBXNativeTarget "DaysTill" */;
 			buildPhases = (
+				99C90E05CEC06E6D0181D1AE /* [CP] Check Pods Manifest.lock */,
 				CC74EAA51E3975E500C6B3E8 /* Sources */,
 				CC74EAA61E3975E500C6B3E8 /* Frameworks */,
 				CC74EAA71E3975E500C6B3E8 /* Resources */,
+				3753B296C7FC94FFF9F9E345 /* [CP] Embed Pods Frameworks */,
+				D29A35558D7F97DB35C32B8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +263,7 @@
 			files = (
 				CC74EAB71E3975E500C6B3E8 /* LaunchScreen.storyboard in Resources */,
 				CC74EAB41E3975E500C6B3E8 /* Assets.xcassets in Resources */,
+				CC74EADB1E3977DB00C6B3E8 /* Podfile in Resources */,
 				CC74EAB21E3975E500C6B3E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3753B296C7FC94FFF9F9E345 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaysTill/Pods-DaysTill-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C90E05CEC06E6D0181D1AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D29A35558D7F97DB35C32B8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaysTill/Pods-DaysTill-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC74EAA51E3975E500C6B3E8 /* Sources */ = {
@@ -409,6 +488,7 @@
 		};
 		CC74EAD21E3975E500C6B3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F468F6FD47E1DDDACFF3AE /* Pods-DaysTill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DaysTill/Info.plist;
@@ -421,6 +501,7 @@
 		};
 		CC74EAD31E3975E500C6B3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3279A83B321389540B2A15DC /* Pods-DaysTill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DaysTill/Info.plist;
