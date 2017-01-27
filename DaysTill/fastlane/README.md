@@ -6,9 +6,9 @@ sudo gem install fastlane
 ```
 # Available Actions
 ## iOS
-### ios test
+### ios UITEST
 ```
-fastlane ios test
+fastlane ios UITEST
 ```
 Runs all the tests
 
