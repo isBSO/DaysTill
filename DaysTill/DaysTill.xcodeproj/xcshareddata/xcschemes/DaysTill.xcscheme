@@ -30,7 +30,7 @@
       codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC74EABC1E3975E500C6B3E8"
@@ -53,7 +53,7 @@
                ReferencedContainer = "container:DaysTill.xcodeproj">
             </BuildableReference>
             <LocationScenarioReference
-               identifier = "Sydney, Australia"
+               identifier = "Honolulu, HI, USA"
                referenceType = "1">
             </LocationScenarioReference>
          </TestableReference>
