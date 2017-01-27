@@ -22,16 +22,13 @@ platform :ios do
     
   end
 
-
   desc "Runs all the tests"
   lane :test do
-    scan
+    scan(scheme: "DaysTill")
+
   end
 
-  
-
-
-  # You can define as many lanes as you want
+    # You can define as many lanes as you want
 
   after_all do |lane|
     # This block is called, only if the executed lane was successful
