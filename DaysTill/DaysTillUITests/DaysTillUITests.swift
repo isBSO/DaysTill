@@ -39,5 +39,16 @@ class DaysTillUITests: XCTestCase {
         app.navigationBars["UIView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
         
     }
+    func testGoingToBAndBAckTWICE() {
+        
+        let app = XCUIApplication()
+        app.buttons["Goto B"].tap()
+        app.navigationBars["UIView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        app.buttons["Goto B"].tap()
+        app.navigationBars["UIView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        app.buttons["Goto B"].tap()
+        app.navigationBars["UIView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        
+    }
     
 }
