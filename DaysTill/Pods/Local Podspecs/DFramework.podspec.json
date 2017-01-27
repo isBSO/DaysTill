@@ -1,0 +1,27 @@
+{
+  "name": "DFramework",
+  "version": "0.01",
+  "license": "MIT",
+  "summary": "A delightful iOS  framework.",
+  "homepage": "https://isBSO.com/",
+  "social_media_url": "https://twitter.com/isBSO",
+  "authors": {
+    "isBSO": "isBSO@.BSO.me"
+  },
+  "source": {
+    "git": "https://isBSO/DFramework/DFramework.git",
+    "tag": "0.01",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "source_files": "DFramework/*.*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

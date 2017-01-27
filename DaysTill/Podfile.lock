@@ -1,0 +1,16 @@
+PODS:
+  - DFramework (0.01)
+
+DEPENDENCIES:
+  - DFramework (from `DaysTillSharedFramework`)
+
+EXTERNAL SOURCES:
+  DFramework:
+    :path: DaysTillSharedFramework
+
+SPEC CHECKSUMS:
+  DFramework: 6d71d86a8de45e49fbcb7f151f88c07996d6ed89
+
+PODFILE CHECKSUM: 8dbd193834efa56d6fcf5cb679f634513606c9d6
+
+COCOAPODS: 1.1.1

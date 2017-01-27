@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'DaysTill' do
+
+
+
+pod 'DFramework', :path => 'DaysTillSharedFramework'
+
+target 'DaysTillTests' do
+    end
+end
+
